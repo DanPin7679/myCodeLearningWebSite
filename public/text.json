@@ -1,0 +1,72 @@
+[
+    {
+        "id":1,
+        "name":"Software Design",
+        "subjects": [
+          {
+            "id":1,
+            "name":"Design Patterns",
+            "contents": [
+                {
+                  "id":1,
+                  "title":"Creational Patterns",
+                  "content":"test 1"
+                },
+              {
+                  "id":2,
+                  "title":"Structural Patterns",
+                  "content":"test 1"
+                }
+            ]
+          },
+          {
+            "id":2,
+            "name":"Object Oriented",
+            "contents": [
+                {
+                  "id":1,
+                  "title":"Creational Patterns",
+                  "content":"test 1"
+                },
+              {
+                  "id":2,
+                  "title":"Structural Patterns",
+                  "content":"test 1"
+                }
+            ]
+          }
+        ]
+    },
+    {
+      "id":2,
+      "name":"Data Structure",
+      "subjects": [
+          {
+            "id":1,
+            "name":"Stack",
+            "email":"glenn@gmail.com"
+          },
+          {
+            "id":2,
+            "name":"Queue",
+            "email":"negan@gmail.com"
+          }
+        ]
+    },
+    {
+      "id":3,
+      "name":"Algorithms",
+      "subjects": [
+          {
+            "id":1,
+            "name":"Dynamic Programing",
+            "email":"glenn@gmail.com"
+          },
+          {
+            "id":2,
+            "name":"Greedy Algorythm",
+            "email":"negan@gmail.com"
+          }
+        ]
+    }
+]
