@@ -1,10 +1,6 @@
 import {buildTopNavBar} from "./nav-bars/topNavBar.js";
 import {buildNavBar} from "./nav-bars/navbar.js";
 
-
-var appState = [2,1,3]
-getCategories(appState)
-
 function getCategories(appState) {
     var categories = [];
     (async () => {
@@ -42,3 +38,5 @@ function getContents(subjects, appState) {
         buildNavBar(subjects, contents, appState);
     })();
 }
+
+export { getCategories };

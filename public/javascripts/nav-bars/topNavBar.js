@@ -21,7 +21,8 @@ function buildTopNavBar(categories, appState) {
         var navCategory = document.createElement("button");
         navCategory.textContent = categories[i].title;
         navCategory.className = "btn-category";
-        navCategory.id = categories[i];
+        navCategory.id = categories[i].title;
+
         if (categories[i].id === appState[0]) {
             navCategory.style.backgroundColor = "orange"
         }
